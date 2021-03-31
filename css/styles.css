@@ -117,6 +117,8 @@ p {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .current::after {
@@ -136,6 +138,7 @@ p {
 .navigation-link:hover,
 .navigation-link:focus {
   color: var(--btm-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .communication-list {
@@ -162,12 +165,18 @@ p {
   letter-spacing: 0.02em;
 
   color: #757575;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mail-link:hover,
 .mail-link:focus {
   color: var(--btm-color);
   fill: var(--btm-color);
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-mail {
@@ -190,12 +199,18 @@ p {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .tel-link:hover,
 .tel-link:focus {
   color: var(--btm-color);
   fill: var(--btm-color);
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-smartphone {
@@ -448,6 +463,9 @@ p {
   width: 44px;
   height: 44px;
   fill: #afb1b8;
+
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-link:hover,
@@ -455,6 +473,9 @@ p {
   border-radius: 50%;
   background-color: var(--btm-color);
   fill: #ffffff;
+
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-link-icon {
@@ -508,12 +529,18 @@ p {
   border: 1px solid #afb1b8;
   border-radius: 4px;
   fill: #afb1b8;
+
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-link:focus,
 .clients-link:hover {
   border-color: var(--btm-color);
   fill: var(--btm-color);
+
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-1 {
@@ -621,6 +648,8 @@ p {
 .footer-social-link:hover,
 .footer-social-link:focus {
   background-color: #2196f3;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-social-link .social-link-icon {
@@ -638,6 +667,8 @@ p {
   background-color: rgba(255, 255, 255, 0.1);
   align-items: center;
   justify-content: center;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* ===============PORTFOLIO==============*/
@@ -669,11 +700,17 @@ p {
   cursor: pointer;
   border-radius: 4px;
   border-color: #f5f4fa;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .buttons-link:hover,
 .buttons-link:focus {
   color: #ffffff;
   background-color: var(--btm-color);
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* ===============END BUTTONS==============*/
